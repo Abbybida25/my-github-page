@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-    </head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>About Me</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — My Website</title>
+  <!-- Bootstrap CSS (Tutorial 4) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS (Tutorial 3) -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-<h1>About Me </h1>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+
+  <!-- NAVIGATION (Tutorial 2) -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">My Website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    </header>
+  </header>
 
-    <main>
-        <p>Hi! I'm a beginner web developer learning how to use GitHub Pages.</p>
-        <p>This is my first multi-page website,and I'm excited to share it with you!</p>
-    </main>
+  <!-- HERO SECTION -->
+  <section class="hero" style="padding: 4rem 0;">
+    <div class="container">
+      <h1>About Me 🌸</h1>
+      <p>Get to know the person behind this website</p>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy;2023 Abigail Manowe</p>
-        </footer>
-        </body>
-        </html>
+  <!-- MAIN CONTENT (Tutorial 4 - Bootstrap) -->
+  <main class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h2>Hi! I'm a student web developer.</h2>
+        <p>I'm learning how to use GitHub Pages as part of my course at Botswana Accountancy College. This is my first multi-page website and I'm excited to share it with you!</p>
+        <p>I'm excited to share it with you!</p>
+
+        <div class="card mt-4">
+          <div class="card-body">
+            <h5 class="card-title">What I'm Learning 📚</h5>
+            <p class="card-text">HTML5, CSS3, Bootstrap, GitHub Pages and Git!</p>
+            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 My Website — Built with 💜 using GitHub Pages</p>
+  </footer>
+
+  <!-- Bootstrap JS (Tutorial 4) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
